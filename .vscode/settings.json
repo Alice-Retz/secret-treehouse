@@ -18,5 +18,8 @@
         "titleBar.inactiveBackground": "#d9778099",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#d97780"
+    "peacock.color": "#d97780",
+    "cSpell.words": [
+        "treehouse"
+    ]
 }

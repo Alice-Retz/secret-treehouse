@@ -13,15 +13,15 @@ export default function App() {
       <ProvideAuth>
         <Router>
           <Switch>
-            <Route exact path="/">
+            <Route path="/">
               <Home />
             </Route>
             <Route path="/login">
               <Login />
             </Route>
-            <Route path="/treehouse/members">
+            <PrivateRoute path="/treehouse/members">
               <TreehouseMembers />
-            </Route>
+            </PrivateRoute>
             <PrivateRoute path="/treehouse">
               <Treehouse />
             </PrivateRoute>
